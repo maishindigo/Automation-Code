@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="gsk.test">
+<listeners>
+<listener class-name = "com.qa.tums.eng.util.Transformer"/>
+<listener class-name ="com.qa.tums.eng.util.ListenerClass"/>
+</listeners>
+	<test name="Centrum Automation test">
+		<classes>
+			<class name="com.qa.centrum.eng.test.CentrumSampleFooterPage" />
+			<class name="com.qa.centrum.eng.test.CentrumSampleAboutPage"/>
+		</classes>
+	</test>
+</suite> 
