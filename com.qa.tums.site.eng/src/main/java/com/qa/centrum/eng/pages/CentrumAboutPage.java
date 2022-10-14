@@ -20,6 +20,9 @@ public class CentrumAboutPage extends BaseClass{
 	}
 	@FindBy(xpath = "//button[text()='Dismiss']")
 	WebElement cookieBtn;
+
+	@FindBy(xpath = "//button[text()='Dismiss']")
+	WebElement cookieBt;
 	
 	@FindBy(xpath = "//h2[@class='heading']")
 	WebElement gigyaForm;
