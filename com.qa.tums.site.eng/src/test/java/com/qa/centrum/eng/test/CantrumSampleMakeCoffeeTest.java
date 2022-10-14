@@ -18,6 +18,8 @@ public class CantrumSampleMakeCoffeeTest extends BaseClass{
 		launchTwoUrl();
 	}
 
+
+
 	@BeforeMethod
 	private void launchingTheUrl() throws Exception {
 		switchingTab(firstTab);
